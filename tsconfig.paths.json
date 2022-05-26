@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@processes/*": ["./src/processes/*"],
+      "@styles": ["./src/styles"],
+      "@styles/*": ["./src/styles/*"],
+      "@core": ["./src/styles/core.scss"],
+      "@shared/*": ["./src/shared/*"],
+      "@env": ["./src/shared/environment"],
+      "@modules": ["./src/modules/index"],
+      "@modules/*": ["./src/modules/*"],
+      "@pages": ["./src/pages/index"],
+      "@pages/*": ["./src/pages/*"],
+      "@api/*": ["./src/api/*"],
+      "@app": ["./src/app/index"],
+      "@app/*": ["./src/app/*"],
+      "@images/*": ["./public/images/*"],
+      "@images": ["./public/images"],
+      "@store/*": ["./src/store/*"],
+      "@store": ["./src/store"]
+    }
+  }
+}
